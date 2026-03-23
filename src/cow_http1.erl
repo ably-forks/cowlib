@@ -379,6 +379,7 @@ status(428) -> <<"428 Precondition Required">>;
 status(429) -> <<"429 Too Many Requests">>;
 status(431) -> <<"431 Request Header Fields Too Large">>;
 status(451) -> <<"451 Unavailable For Legal Reasons">>;
+status(498) -> <<"498 Token Expired">>;
 status(500) -> <<"500 Internal Server Error">>;
 status(501) -> <<"501 Not Implemented">>;
 status(502) -> <<"502 Bad Gateway">>;
